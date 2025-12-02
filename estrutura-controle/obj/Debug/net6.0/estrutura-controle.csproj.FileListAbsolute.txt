@@ -1,0 +1,15 @@
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/estrutura-controle
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/estrutura-controle.deps.json
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/estrutura-controle.runtimeconfig.json
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/estrutura-controle.dll
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/ref/estrutura-controle.dll
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/bin/Debug/net6.0/estrutura-controle.pdb
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.csproj.AssemblyReference.cache
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.AssemblyInfoInputs.cache
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.AssemblyInfo.cs
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.csproj.CoreCompileInputs.cache
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.dll
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/ref/estrutura-controle.dll
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.pdb
+/home/felipe/trybe/aceleração-csharp/estrutura-controle/obj/Debug/net6.0/estrutura-controle.genruntimeconfig.cache

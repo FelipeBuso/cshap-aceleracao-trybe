@@ -1,0 +1,15 @@
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/HelloWord
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/HelloWord.deps.json
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/HelloWord.runtimeconfig.json
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/HelloWord.dll
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/ref/HelloWord.dll
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/bin/Debug/net6.0/HelloWord.pdb
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.csproj.AssemblyReference.cache
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.AssemblyInfoInputs.cache
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.AssemblyInfo.cs
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.csproj.CoreCompileInputs.cache
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.dll
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/ref/HelloWord.dll
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.pdb
+/home/felipe/trybe/aceleração-csharp/primeiro-codigo/HelloWord/obj/Debug/net6.0/HelloWord.genruntimeconfig.cache

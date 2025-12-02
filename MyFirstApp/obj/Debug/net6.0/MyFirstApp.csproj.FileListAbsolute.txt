@@ -1,0 +1,15 @@
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/MyFirstApp
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/MyFirstApp.deps.json
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/MyFirstApp.runtimeconfig.json
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/MyFirstApp.dll
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/ref/MyFirstApp.dll
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/bin/Debug/net6.0/MyFirstApp.pdb
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.csproj.AssemblyReference.cache
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.AssemblyInfoInputs.cache
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.AssemblyInfo.cs
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.csproj.CoreCompileInputs.cache
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.dll
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/ref/MyFirstApp.dll
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.pdb
+/home/felipe/trybe/aceleração-csharp/MyFirstApp/obj/Debug/net6.0/MyFirstApp.genruntimeconfig.cache
