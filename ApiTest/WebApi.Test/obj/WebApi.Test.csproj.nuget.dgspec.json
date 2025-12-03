@@ -1,0 +1,155 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi.Test/WebApi.Test.csproj": {}
+  },
+  "projects": {
+    "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi.Test/WebApi.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi.Test/WebApi.Test.csproj",
+        "projectName": "WebApi.Test",
+        "projectPath": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi.Test/WebApi.Test.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi.Test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/WebApi.csproj": {
+                "projectPath": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/WebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.36, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.136/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/WebApi.csproj",
+        "packagesPath": "/home/felipe/.nuget/packages/",
+        "outputPath": "/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/felipe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.136/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
