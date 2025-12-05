@@ -1,0 +1,11 @@
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/WebApi
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/appsettings.Development.json
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/appsettings.json
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/WebApi.dll
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/WebApi.deps.json
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/WebApi.runtimeconfig.json
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/WebApi.pdb
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/Microsoft.OpenApi.dll
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.Swagger.dll
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/publish/Swashbuckle.AspNetCore.SwaggerUI.dll
