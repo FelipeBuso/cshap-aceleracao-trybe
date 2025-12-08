@@ -25,3 +25,5 @@
 /home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/obj/Debug/net6.0/ref/WebApi.dll
 /home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/obj/Debug/net6.0/WebApi.pdb
 /home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/obj/Debug/net6.0/WebApi.genruntimeconfig.cache
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/bin/Debug/net6.0/WebApi.xml
+/home/felipe/trybe/aceleracao-csharp/ApiTest/WebApi/obj/Debug/net6.0/WebApi.xml

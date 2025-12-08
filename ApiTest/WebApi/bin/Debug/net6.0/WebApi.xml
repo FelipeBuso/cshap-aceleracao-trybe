@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:WebApi.Controllers.ClientController.GetAll">
+            <summary>
+            Retorna a lista de todos os clientes cadastrados
+            </summary>
+            <returns>Lista de clientes</returns>
+            <response code="200">Retorna a lista de clientes</response>
+        </member>
+    </members>
+</doc>

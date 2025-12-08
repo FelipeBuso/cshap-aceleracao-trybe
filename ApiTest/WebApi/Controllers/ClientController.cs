@@ -11,6 +11,11 @@ public class ClientController : ControllerBase
     private static List<Client> _clients = new();
     private static int _nextId = 1;
 
+    /// <summary>
+    /// Retorna a lista de todos os clientes cadastrados
+    /// </summary>
+    /// <returns>Lista de clientes</returns>
+    /// <response code="200">Retorna a lista de clientes</response>
     [HttpGet]
     public ActionResult<List<Client>> GetAll()
     {
