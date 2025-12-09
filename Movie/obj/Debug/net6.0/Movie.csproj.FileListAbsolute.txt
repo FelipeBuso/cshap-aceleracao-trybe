@@ -1,0 +1,15 @@
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/Movie
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/Movie.deps.json
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/Movie.runtimeconfig.json
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/Movie.dll
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/ref/Movie.dll
+/home/felipe/trybe/aceleracao-csharp/Movie/bin/Debug/net6.0/Movie.pdb
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.csproj.AssemblyReference.cache
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.AssemblyInfoInputs.cache
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.AssemblyInfo.cs
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.csproj.CoreCompileInputs.cache
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.dll
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/ref/Movie.dll
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.pdb
+/home/felipe/trybe/aceleracao-csharp/Movie/obj/Debug/net6.0/Movie.genruntimeconfig.cache
