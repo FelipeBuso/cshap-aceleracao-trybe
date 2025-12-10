@@ -2,11 +2,16 @@
 
 using Movie.Models;
 using Movie.DTO;
+using System.Diagnostics;
 
 public class Program
 {
     public static void Main(string[] args)
     {
+        var stopwatch = new Stopwatch();
+
+        stopwatch.Start();
+
         List<Movie> movies = new List<Movie>
         {
             new Movie { Title = "Inception", Genre = "Sci-Fi", Rating = 8.8f, ReleaseYear = 2010 },
@@ -54,6 +59,12 @@ public class Program
                                Name = actress.Name,
                                Year = movie.ReleaseYear
                            };
+
+        stopwatch.Stop();
+        Console.WriteLine($"Tempo de Execução Classe I/O): {stopwatch.ElapsedTicks} ticks / {stopwatch.ElapsedMilliseconds} ms");
+
+
+        stopwatch.Restart();
         //Agrupamento
         var actressQueryGroup = from movie in movies
                                 join actress in actresses
@@ -62,7 +73,12 @@ public class Program
                                 select genreGroup;
 
 
+        var resultList = actressQueryGroup.ToList();
 
+        stopwatch.Stop();
+        Console.WriteLine($"Tempo de Execução LINQ (sem I/O): {stopwatch.ElapsedTicks} ticks / {stopwatch.ElapsedMilliseconds} ms");
+
+        stopwatch.Restart();
         foreach (var genreGroup in actressQueryGroup)
         {
             Console.WriteLine($"Gênero: {genreGroup.Key} - Número de Atrizes: {genreGroup.Count()}  ");
@@ -71,6 +87,8 @@ public class Program
                 Console.WriteLine($" - Atriz: {actress.Name} - Filme: {actress.Movie}");
             }
         }
+        stopwatch.Stop();
+        Console.WriteLine($"Tempo de Execução I/O (Console.WriteLine): {stopwatch.ElapsedTicks} ticks / {stopwatch.ElapsedMilliseconds} ms");
         // foreach (var movie in actressQuery)
         // {
         //     // Console.WriteLine($"Título: {movie.Title} - Gênero: {movie.Genre} - Nota:{movie.Rating} - Ano de lançamento: {movie.ReleaseYear}");
