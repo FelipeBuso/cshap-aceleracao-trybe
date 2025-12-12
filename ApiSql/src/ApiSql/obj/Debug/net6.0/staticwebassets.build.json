@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fwYZ25gqTM4N5iZNvfNfKviwhyD90g1BNVlxhfgTrjA=",
+  "Source": "ApiSql",
+  "BasePath": "_content/ApiSql",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
