@@ -3,40 +3,39 @@ namespace ApiSql.Controller;
 using Microsoft.AspNetCore.Mvc;
 using ApiSql.Models;
 using ApiSql.Repository;
+using ApiSql.Cache;
+using System.Reflection;
 
 [ApiController]
 [Route("[controller]")]
 public class BookController : ControllerBase
 {
-    private readonly BookRepository _bookRespository;
-    public BookController(BookRepository repository)
+    private readonly BookCashingStore _bookRepository;
+    public BookController(BookCashingStore repository)
     {
-        _bookRespository = repository;
+        _bookRepository = repository;
     }
 
     [HttpPost]
     public IActionResult AddBook()
     {
-        var book = new Book
-        {
-            Title = "The Divine Comedy",
-            Description = "A journey through the infinite torment of Hell",
-            Year = 2013,
-            Pages = 811,
-            Genre = "Drama",
-            Author = new Author
-            {
-                Name = "Dante Alighieri",
-                Email = "mail@mail.com"
-            },
-            Publisher = new Publisher
-            {
-                Name = "Paradise Publisher"
-            }
-        };
-
-        _bookRespository.Add(book);
+        _bookRepository.CacheAddBook();
 
         return Ok(new { message = "livro criado" });
+    }
+
+    [HttpGet("{id}")]
+
+    public IActionResult GetBookById(int id)
+    {
+        Console.WriteLine($"Livro id: {id}");
+        var book = _bookRepository.CacheGetBookById(id);
+        // Console.WriteLine(book.ToString());
+        if (book == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(book);
     }
 }
