@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "O8ymexXlFUGxbMjhi6H8HByea0fYPfnFHgSPAef5ZL4JVx/r9NOZ0WN2MpqyH0bR36XDg5t9XLZEX4cKjMZkPQ==",
+  "dgSpecHash": "/SSyWfXQCtdpo15krrWimS32EUUYGzxZviVTKJz+tvisYFqj3U1b/wFl8AStPlzbVyN13aCEjTtT4M6ICvVytQ==",
   "success": true,
   "projectFilePath": "/home/felipe/trybe/aceleracao-csharp/ApiSql/src/ApiSql/ApiSql.csproj",
   "expectedPackageFiles": [
@@ -18,6 +18,7 @@
     "/home/felipe/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.0/microsoft.entityframeworkcore.inmemory.7.0.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.entityframeworkcore.relational/7.0.4/microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.entityframeworkcore.sqlserver/7.0.4/microsoft.entityframeworkcore.sqlserver.7.0.4.nupkg.sha512",
+    "/home/felipe/.nuget/packages/microsoft.entityframeworkcore.tools/7.0.0/microsoft.entityframeworkcore.tools.7.0.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",

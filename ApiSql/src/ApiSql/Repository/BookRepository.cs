@@ -49,10 +49,22 @@ public class BookRepository
         .Include(b => b.Publisher)
         .Single(b => b.BookId == id);
 
-        _context.Remove(book);
-        _context.Remove(book.Author);
-        _context.Remove(book.Publisher);
-        _context.SaveChanges();
+        if (book != null)
+        {
+
+            _context.Remove(book);
+            if (book.Author != null)
+            {
+
+                _context.Remove(book.Author);
+            }
+            if (book.Publisher != null)
+            {
+
+                _context.Remove(book.Publisher);
+            }
+            _context.SaveChanges();
+        }
     }
 
 

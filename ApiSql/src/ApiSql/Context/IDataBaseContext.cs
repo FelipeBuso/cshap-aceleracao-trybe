@@ -9,7 +9,6 @@ public interface IDataBaseContext
     DbSet<Book> Books { get; set; }
     DbSet<Author> Authors { get; set; }
     DbSet<Publisher> Publishers { get; set; }
-
     int SaveChanges();
 
     EntityEntry<TEntity> Add<TEntity>(TEntity entity) where TEntity : class;

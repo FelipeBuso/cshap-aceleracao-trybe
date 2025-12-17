@@ -19,5 +19,5 @@ public class Book
 
     [ForeignKey("PublisherId")]
     public int PublisherId { get; set; }
-    public Publisher Publisher { get; set; } = null!;
+    public Publisher? Publisher { get; set; } = null!;
 }

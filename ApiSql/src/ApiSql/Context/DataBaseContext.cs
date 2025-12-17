@@ -7,9 +7,11 @@ using Microsoft.EntityFrameworkCore;
 
 public class DataBaseContext : DbContext, IDataBaseContext
 {
-    public DbSet<Book> Books { get; set; }
-    public DbSet<Author> Authors { get; set; }
-    public DbSet<Publisher> Publishers { get; set; }
+    public DbSet<Book> Books { get; set; } = null!;
+    public DbSet<Author> Authors { get; set; } = null!;
+    public DbSet<Publisher> Publishers { get; set; } = null!;
+    public DbSet<Product> Products { get; set; } = null!;
+
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

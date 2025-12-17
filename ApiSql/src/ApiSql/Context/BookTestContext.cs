@@ -5,9 +5,9 @@ using Microsoft.Extensions.DependencyInjection;
 
 public class BookTestContext : DbContext, IDataBaseContext
 {
-    public virtual DbSet<Book> Books { get; set; }
-    public DbSet<Author> Authors { get; set; }
-    public DbSet<Publisher> Publishers { get; set; }
+    public virtual DbSet<Book> Books { get; set; } = null!;
+    public DbSet<Author> Authors { get; set; } = null!;
+    public DbSet<Publisher> Publishers { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
