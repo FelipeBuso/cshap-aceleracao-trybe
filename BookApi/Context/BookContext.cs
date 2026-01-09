@@ -1,4 +1,4 @@
-namespace BookApi.Repository;
+namespace BookApi.Context;
 
 using Microsoft.EntityFrameworkCore;
 using BookApi.Models;
@@ -7,6 +7,7 @@ public class BookContext : DbContext, IBookContext
 {
     public DbSet<Author> Authors { get; set; } = null!;
     public DbSet<Book> Books { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
 
     public BookContext(DbContextOptions<BookContext> options) : base(options) { }
 

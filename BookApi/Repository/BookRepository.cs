@@ -3,6 +3,7 @@ namespace BookApi.Repository;
 using System.Collections.Generic;
 using BookApi.DTO;
 using BookApi.Models;
+using BookApi.Context;
 
 public class BookRepository : IBookRepository
 {

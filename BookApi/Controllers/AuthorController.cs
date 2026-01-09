@@ -2,6 +2,8 @@ namespace BookApi.Controller;
 
 using BookApi.Models;
 using BookApi.Repository;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 [ApiController]
@@ -17,6 +19,8 @@ public class AuthorController : Controller
     }
 
     [HttpPost]
+    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [Authorize(Policy = "Admin only")]
     public IActionResult Add([FromBody] Author author)
     {
         return Created("", _repository.AddAuthor(author));

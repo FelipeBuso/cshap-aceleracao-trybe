@@ -1,4 +1,4 @@
-namespace BookApi.Repository;
+namespace BookApi.Context;
 
 using Microsoft.EntityFrameworkCore;
 using BookApi.Models;

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6C0WFqQWArAHmSDJ+BpDnagrtNFvnZzhbv/DumRAABsT/kUu8V336CDnb0KsoKKkRt1pE5cvMYiN/qZRWUnv8g==",
+  "dgSpecHash": "Yu/sQQtJetNljda0+BPF8asipeFIvqUrpV6fCMgP+EwXfZKyl1rXMD4z2HfWJUsbPeLx6X199WTPSMto6/mEOw==",
   "success": true,
   "projectFilePath": "/home/felipe/trybe/aceleracao-csharp/BookApi/BookApi.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "/home/felipe/.nuget/packages/fluentassertions/6.0.0/fluentassertions.6.0.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/fluentassertions.aspnetcore.mvc/4.2.0/fluentassertions.aspnetcore.mvc.4.2.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/home/felipe/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/6.0.0/microsoft.aspnetcore.authentication.jwtbearer.6.0.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/home/felipe/.nuget/packages/microsoft.data.sqlclient/5.0.1/microsoft.data.sqlclient.5.0.1.nupkg.sha512",
