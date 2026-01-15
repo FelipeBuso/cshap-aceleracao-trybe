@@ -23,9 +23,11 @@ public class TokenService
 
         var tokenDescriptor = new SecurityTokenDescriptor()
         {
-            SigningCredentials = new SigningCredentials(
-            new SymmetricSecurityKey(Encoding.ASCII.GetBytes(TokenConstant.Secret)),
-            SecurityAlgorithms.HmacSha256Signature),
+            SigningCredentials = new SigningCredentials
+            (
+                new SymmetricSecurityKey(Encoding.ASCII.GetBytes(TokenConstant.Secret)),
+                SecurityAlgorithms.HmacSha256Signature
+            ),
             Expires = DateTime.Now.AddDays(1),
             Subject = claims,
             Audience = "http://meufront.com",
